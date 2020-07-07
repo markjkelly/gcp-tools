@@ -17,7 +17,7 @@ RUN apt-get upgrade -y && \
     npm install apigeetool -g \
     npm install i apigee-edge-js \
     npm install i node-getopt \
-    npm install i grunt-cli \
+    npm install grunt-cli --save-dev \
     npm install openapi2apigee -g
 
 VOLUME /code
